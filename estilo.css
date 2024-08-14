@@ -1,0 +1,139 @@
+*{
+    text-decoration: none;
+}
+
+.vina,.dj,.elis,.joao,.tom{
+width: 10%;
+  max-width: 400px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+  height: 10%;
+  -webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px #006773;
+-webkit-box-shadow:  2px 2px 4px 0px #006773;
+box-shadow: 2px 2px 4px 0px #006773;
+-moz-border-radius:7px 7px 7px 7px ;
+}
+
+.vina:hover{
+    transform: scale(1.2);
+}
+.dj:hover{
+    transform: scale(1.2);
+}
+.elis:hover{
+    transform: scale(1.2);
+}
+.joao:hover{
+    transform: scale(1.2);
+}
+.tom:hover{
+    transform: scale(1.2);
+}
+
+
+.containerV,.containerD,.containerJ,.containerE,.containerT{
+    text-align: center;
+    display: flex;
+    background-color: #006773;
+}
+
+p{
+    font-size: larger;
+}
+video{
+    width: 450px;
+}
+.logo{
+ height: 100px;
+}
+audio:hover, audio:focus, audio:active
+{
+-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
+
+audio
+{
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px #006773;
+-webkit-box-shadow:  2px 2px 4px 0px #006773;
+box-shadow: 2px 2px 4px 0px #006773;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}
+
+.header{
+    padding: 30px 12px;
+    background-color: rgb(213, 213, 0);
+    display: flex;
+
+}
+
+.titulo{
+    font-size: 35px;
+    color: black;
+    font-weight: 600;
+    transition: 0.2s ease;
+    
+}
+
+.titulo:hover {
+    color: red;
+    text-shadow: 0 0 25px red, 0 0 50px red;
+    transform: scale(1.1);
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+.nomes{
+    background-color: snow;
+    border-radius: 10px;
+}
+.videos{
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 50px;
+}
+.clipe{
+    margin: 0 auto;
+    justify-content: center;
+    justify-items: center;
+}
+body{
+    background-color:aliceblue ;
+}
+.containerTitulo{
+    background-color: #006773;
+    padding: 10px;
+}
+.titulo2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.nomes-musicas1{
+    font-size: 25px;
+}
+.nomes-musicas1:hover{
+    text-decoration: underline whitesmoke 2px;
+}
+.zera{
+    background-color:rgb(213, 213, 0);
+}
+a{
+    color: black;
+}
+
+
